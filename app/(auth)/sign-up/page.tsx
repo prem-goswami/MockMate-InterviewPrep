@@ -1,11 +1,6 @@
-import React from "react";
-import AuthForm from "@/components/authform";
-const page = () => {
-  return (
-    <div>
-      <AuthForm type="sing-up" />
-    </div>
-  );
-};
+import AuthForm from "@/components/AuthForm";
 
-export default page;
+const Page = async () => {
+  return <AuthForm type="sign-up" />;
+};
+export default Page;
